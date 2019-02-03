@@ -1,0 +1,35 @@
+#title {
+	background-color: brown;
+	margin: 25px;
+	padding: 25px;
+	border: solid green 25px;
+	color: red;
+	text-align: center;
+}
+
+#screen {
+	height: 80px;
+	width: 1290px;
+	font-size: 50px;
+	margin: 25px;
+	padding: 25px;
+	border: solid black 10px;
+}
+
+.number {
+	font-size: 50px;
+	margin: 25px;
+	padding: 25px;
+	border: 10px solid  black;
+	text-align: center;
+	width: 300px;
+	position: relative;
+}
+
+#digits {
+	background-color: gray;
+	margin: 25px;
+	padding: 25px;
+	border: 5px solid black;
+	text-align: center;
+}

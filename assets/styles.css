@@ -27,6 +27,19 @@
 }
 
 #digits {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas: 
+        "n n n m"
+        "n n n m"
+        "n n n m"
+        "  n   m"
+        "r m m m"
+        "n s s s s s";
+    grid-area: n;
+    grid-area: e;
+    grid-area: s;
 	background-color: gray;
 	margin: 25px;
 	padding: 25px;

@@ -3,6 +3,7 @@
 <head>
 	<title>Calculator Experiment</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<div>
@@ -14,7 +15,7 @@
 		</div>
 		<div id="digits">
 			<div id="num">
-				<button class="number" onclick="number1()">1</button>
+				<button class="number" onclick="number1()" onkeydown="number1()">1</button>
 				<button class="number" onclick="number2()">2</button>
 				<button class="number" onclick="number3()">3</button>
 				<button class="number" onclick="number4()">4</button>
@@ -34,58 +35,7 @@
 			</div>
 
 	</div>
-
-	<script>
-		function number1() {
-  		document.getElementById("screen").innerHTML = "1";}
-
-  		function number2() {
-  		document.getElementById("screen").innerHTML = "2";}
-
-  		function number3() {
-  		document.getElementById("screen").innerHTML = "3";}
-
-  		function number4() {
-  		document.getElementById("screen").innerHTML = "4";}
-
-  		function number5() {
-  		document.getElementById("screen").innerHTML = "5";}
-
-  		function number6() {
-  		document.getElementById("screen").innerHTML = "6";}
-
-  		function number7() {
-  		document.getElementById("screen").innerHTML = "7";}
-
-  		function number8() {
-  		document.getElementById("screen").innerHTML = "8";}
-
-  		function number9() {
-  		document.getElementById("screen").innerHTML = "9";}
-
-  		function number0() {
-  		document.getElementById("screen").innerHTML = "0";}
-
-  		function plus() {
-  		document.getElementById("screen").innerHTML = "+";}
-
-  		function minus() {
-  		document.getElementById("screen").innerHTML = "-";}
-
-  		function divide() {
-  		document.getElementById("screen").innerHTML = "/";}
-
-  		function multiply() {
-  		document.getElementById("screen").innerHTML = "*";}
-
-  		function equal() {
-  		document.getElementById("screen").innerHTML = "=";}
-
-
-
-
-</script>
-
+	<script type="text/javascript" src="assets/calculator.js"></script>
 
 </body>
 </html>

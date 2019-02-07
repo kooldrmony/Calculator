@@ -9,6 +9,17 @@ function equal(){
 	}
 }
 
+function reset(){
+	document.form.view.value = '';
+
+}
+
+function back(){
+	const exp = document.form.view.value;
+	document.form.view.value = exp.substring(0, exp.length-1);
+
+}
+
 // function number1() {
 // 	document.getElementById("screen").innerHTML = "1";}
 

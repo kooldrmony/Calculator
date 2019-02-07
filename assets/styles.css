@@ -1,3 +1,17 @@
+.button {
+	width: 80px;
+	height: 50px;
+	font-size: 25px;
+}
+
+#view {
+	width: 320px;
+	font-size: 30px;
+	border: 1px solid black;
+	margin-left: 3px;
+	padding: 5px;
+}
+
 #title {
 	background-color: brown;
 	margin: 25px;
@@ -28,19 +42,17 @@
 
 #digits {
 	display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
-    grid-template-areas: 
-        "n n n m"
-        "n n n m"
-        "n n n m"
-        "  n   m"
-        "r m m m"
-        "n s s s s s";
+    grid-template-columns: repeat(4);
+    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;*/
+		grid-template-areas: 
+        "n n n e"
+        "n n n e"
+        "n n n e"
+        "  n   s";
     grid-area: n;
     grid-area: e;
     grid-area: s;
-	background-color: gray;
+	background-color: purple;
 	margin: 25px;
 	padding: 25px;
 	border: 5px solid black;

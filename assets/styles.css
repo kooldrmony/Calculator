@@ -5,6 +5,26 @@
 	margin: 2px;
 }
 
+#window {
+	margin: auto;
+	width: 50%;
+}
+
+#zero {
+	width: 168px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+}
+
+#equal {
+	width: 80px;
+	height: 108px;
+	font-size: 25px;
+	margin: 2px;
+
+}
+
 #view {
 	width: 333px;
 	font-size: 30px;
@@ -12,9 +32,22 @@
 	margin-left: 5px;
 	margin-bottom: 2px;
 	padding: 5px;
+	margin-top: 5px;
 }
 
-#tainer {
+#container{
+	background-color: green;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#wrapper {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+/*#tainer {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -52,7 +85,7 @@
 	display: grid;
     grid-template-columns: repeat(4);
     /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;*/
-		grid-template-areas: 
+		/*grid-template-areas: 
         "n n n e"
         "n n n e"
         "n n n e"
@@ -68,4 +101,4 @@
 }
 
 #num {
-}
+}*/

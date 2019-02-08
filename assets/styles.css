@@ -5,11 +5,6 @@
 	margin: 2px;
 }
 
-#window {
-	margin: auto;
-	width: 50%;
-}
-
 #zero {
 	width: 168px;
 	height: 50px;
@@ -36,16 +31,14 @@
 }
 
 #container{
-	background-color: green;
+	background-color: grey;
+	width: 355px;
+	display: block;
 	margin-right: auto;
 	margin-left: auto;
-}
+	margin-top: 220px;
+	}
 
-#wrapper {
-	display: block;
-	margin: auto;
-	width: 50%;
-}
 
 /*#tainer {
 	display: block;
